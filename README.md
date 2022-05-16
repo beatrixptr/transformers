@@ -1,1 +1,6 @@
-https://drive.google.com/file/d/1dGAQLl0kMr8bnwCmG0Mnc8BZgZAqfAtc/view?usp=sharing
+Ez a branch a robothoz készült
+Inputok a roboton:
+A: bal kerék motorja
+B: jobb kerék motorja
+C: golyó kilövőhöz használt motor
+1: Hangszenzor
