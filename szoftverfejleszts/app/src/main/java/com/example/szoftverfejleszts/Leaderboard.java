@@ -36,7 +36,7 @@ public class Leaderboard extends AppCompatActivity {
                 listData.add(data.getString(1) + " " + data.getString(2) + " " + data.getString(3));
             }while(data.moveToNext());
         }
-        ListAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, listData);
+        ListAdapter adapter = new ArrayAdapter<>(this, R.layout.listviewlayout, listData);
         leaderBoard.setAdapter(adapter);
     }
 }
