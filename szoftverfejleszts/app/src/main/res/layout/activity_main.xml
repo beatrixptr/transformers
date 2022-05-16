@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/l1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92FDE4"
+    android:backgroundTintMode="add"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="76dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="Vezetéknév:"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="#92FDE4"
+        android:fontFamily="monospace"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/vnev"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#754052"
+        android:backgroundTintMode="add"
+        android:drawableTint="#9A5757"
+        android:ems="10"
+        android:foregroundTint="#F1ADAD"
+        android:foregroundTintMode="src_in"
+        android:inputType="textPersonName"
+        android:shadowColor="#BD8B8B"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Keresztnev:"
+        android:background="#92FDE4"
+        android:fontFamily="monospace"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/knev"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#754052"
+        android:backgroundTintMode="add"
+        android:drawableTint="#9A5757"
+        android:ems="10"
+        android:foregroundTint="#F1ADAD"
+        android:foregroundTintMode="src_in"
+        android:inputType="textPersonName"
+        android:shadowColor="#BD8B8B"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Csapatnév:"
+        android:background="#92FDE4"
+        android:fontFamily="monospace"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/csnev"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#754052"
+        android:backgroundTintMode="add"
+        android:drawableTint="#9A5757"
+        android:ems="10"
+        android:foregroundTint="#F1ADAD"
+        android:foregroundTintMode="src_in"
+        android:inputType="textPersonName"
+        android:shadowColor="#BD8B8B"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="#92FDE4"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="194dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#DA6565" />
+
+        <Button
+            android:id="@+id/b1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="154dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CD7DF4"
+            android:backgroundTint="#C580E3"
+            android:backgroundTintMode="add"
+            android:drawableTint="#BE7BD8"
+            android:fontFamily="monospace"
+            android:onClick="hozzaadJatekos"
+            android:text="Start"
+            android:textSize="20sp"
+            app:iconTint="#D558E3"
+            app:rippleColor="#9F34A6" />
+
+        <Space
+            android:layout_width="21dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="69dp" />
+
+    <Button
+        android:id="@+id/b2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#633131"
+        android:fontFamily="monospace"
+        android:onClick="openLeaderboard"
+        android:text="Leaderboard"
+        android:textSize="20sp"
+        android:typeface="monospace" />
+</LinearLayout>
+</ScrollView>

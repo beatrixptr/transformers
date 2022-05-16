@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lb_vnev"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:text="Example"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lb_knev"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:fontFamily="monospace"
+        android:text="Keresztnev" />
+
+    <TextView
+        android:id="@+id/item_id"
+        android:layout_width="12dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/lb_ido"
+        android:layout_width="25dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:text="Ido"
+        android:textSize="16sp" />
+</LinearLayout>
